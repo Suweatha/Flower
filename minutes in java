@@ -1,0 +1,18 @@
+public class exercise {
+   public static void main (string[] args );
+   
+      double minutes inyear =60*24*365;
+      
+      scanner input =new scanner (system.in);
+      
+      system.out.print("Input the number of minutes");
+      
+      double min =input.next double();
+      long years=(long)(min/minutes inyear);
+      intdays=(int)(min/60/24)%365;
+      
+      system.out.println((int)min+"minutes in approximately"+years+" years and+days+"days");
+      
+  }
+}
+      
